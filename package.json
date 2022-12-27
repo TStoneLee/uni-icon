@@ -1,0 +1,41 @@
+{
+  "name": "uni-icon",
+  "version": "1.0.0",
+  "description": "uniapp项目中，使用阿里图标库一样引入svg图标",
+  "main": "dist/main.js",
+  "bin": "./dist/bin/uni-icon.js",
+  "scripts": {
+    "build": "rollup --config --bundleConfigAsCjs"
+  },
+  "keywords": [
+    "uniapp",
+    "svg",
+    "iconfont",
+    "阿里图标库"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^4.0.2",
+    "@rollup/plugin-commonjs": "^23.0.4",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-json": "^5.0.2",
+    "@types/node": "^18.11.15",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-unicorn": "^44.0.2",
+    "fs-extra": "^11.1.0",
+    "magic-string": "^0.27.0",
+    "rollup": "^3.7.4",
+    "xml2js": "^0.4.23",    
+    "fast-xml-parser": "^4.0.12",
+    "yargs-parser": "^21.1.1"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=12.22.3 ",
+    "npm": ">=6.14.13"
+  }
+}
