@@ -1,6 +1,6 @@
 {
   "name": "uni-icon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "uniapp项目中，使用阿里图标库一样引入svg图标",
   "main": "dist/main.js",
   "bin": "./dist/bin/uni-icon.js",
@@ -29,7 +29,7 @@
     "fs-extra": "^11.1.0",
     "magic-string": "^0.27.0",
     "rollup": "^3.7.4",
-    "xml2js": "^0.4.23",    
+    "xml2js": "^0.4.23",
     "fast-xml-parser": "^4.0.12",
     "yargs-parser": "^21.1.1"
   },
@@ -43,5 +43,7 @@
     "type": "git",
     "url": "https://github.com/TStoneLee/uni-icon"
   },
-  "files": ["dist"]
+  "files": [
+    "dist"
+  ]
 }
